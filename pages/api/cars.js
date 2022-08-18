@@ -1,4 +1,4 @@
-const tours = [
+const cars = [
     {
         "Id": "1", 
         "Title": "Vans for rent in Spain",
