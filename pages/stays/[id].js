@@ -31,7 +31,7 @@ function Page({ data }) {
   
     const { id } = context.query
   
-    const res = await fetch(`http://localhost:3000/api/stays?stayId=${id}`)
+    const res = await fetch(`https://cse-test-app.vercel.app/api/stays?stayId=${id}`)
     const data = await res.json()
   
     // // Pass data to the page via props
