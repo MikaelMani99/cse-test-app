@@ -1,4 +1,4 @@
-import { URL_BASE } from "../constants"
+import { URL_BASE } from "../../constants"
 
 const urls = [
     { web:`${URL_BASE}/vps/1`, api: `${URL_BASE}/api/vps?vpId=1` },

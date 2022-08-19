@@ -1,4 +1,4 @@
-import { URL_BASE } from "../constants";
+import { URL_BASE } from "../../constants";
 function Page({ data }) {
     return(
         <>

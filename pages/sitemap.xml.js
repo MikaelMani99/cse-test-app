@@ -1,5 +1,5 @@
 //pages/sitemap.xml.js
-import { URL_BASE } from "./constants";
+import { URL_BASE } from "../constants";
 
 function generateSiteMap(posts) {
   return `<?xml version="1.0" encoding="UTF-8"?>
