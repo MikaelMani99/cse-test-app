@@ -1,8 +1,10 @@
+import { URL_BASE } from "../constants";
+
 function Page({ data }) {
     return(
         <>
             <p>
-                Id: {data.TripId}
+                Id: {data.Id}
             </p>
             <p>
                 Title: {data.Title}
@@ -31,7 +33,7 @@ function Page({ data }) {
   
     const { id } = context.query
   
-    const res = await fetch(`https://cse-test-app.vercel.app/api/flights?flightId=${id}`)
+    const res = await fetch(`${URL_BASE}/api/flights?flightId=${id}`)
     const data = await res.json()
   
     // // Pass data to the page via props
