@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { URL_BASE } from '../constants'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,6 +14,33 @@ export default function Home() {
       <form action="/search.html" method="get" role="search">
         <input autoComplete='off' name="q" placeholder='search' type="text"></input>
       </form>
+      <ul>
+        <li><a href={`/vps/1`}>vp1</a></li>
+        <li><a href={`/vps/2`}>vp2</a></li>
+        <li><a href={`/vps/3`}>vp3</a></li>
+        <li><a href={`/vps/4`}>vp4</a></li>
+        <li><a href={`/vps/5`}>vp5</a></li>
+        <li><a href={`/flights/1`}>flights1</a></li>
+        <li><a href={`/flights/2`}>flights2</a></li>
+        <li><a href={`/flights/3`}>flights3</a></li>
+        <li><a href={`/flights/4`}>flights4</a></li>
+        <li><a href={`/flights/5`}>flights5</a></li>
+        <li><a href={`/cars/1`}>cars1</a></li>
+        <li><a href={`/cars/2`}>cars2</a></li>
+        <li><a href={`/cars/3`}>cars3</a></li>
+        <li><a href={`/cars/4`}>cars4</a></li>
+        <li><a href={`/cars/5`}>cars5</a></li>
+        <li><a href={`/stays/1`}>stays1</a></li>
+        <li><a href={`/stays/2`}>stays2</a></li>
+        <li><a href={`/stays/3`}>stays3</a></li>
+        <li><a href={`/stays/4`}>stays4</a></li>
+        <li><a href={`/stays/5`}>stays5</a></li>
+        <li><a href={`/tours/1`}>tours1</a></li>
+        <li><a href={`/tours/2`}>tours2</a></li>
+        <li><a href={`/tours/3`}>tours3</a></li>
+        <li><a href={`/tours/4`}>tours4</a></li>
+        <li><a href={`/tours/5`}>tours5</a></li>
+      </ul>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
